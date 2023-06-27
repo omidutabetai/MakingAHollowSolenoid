@@ -38,4 +38,4 @@ def calc_turns(L, A, l, r):
 
 # コイルの巻数を計算する
 turns = calc_turns(L, A, l, r)
-print("ソレノイドコイルの巻数：{}".format(turns))
+print("ソレノイドコイルの巻数：{.5}".format(turns))
